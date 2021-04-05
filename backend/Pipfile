@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+#mecab-python3 = "==0.7"
+simplejson = "*"
+#python-mnist = "*"
+numpy = "*"
+opencv-python = "*"
+# mesa-libGL.x86_64のinstallがいるよ
+umap-learn  = "*"
+# scikit-learn = "==0.21.3"
+scikit-learn = "*"
+Flask = "==1.0.2"
+Flask-Cors = "==3.0.4"
+pillow = "*"
+# uWSGI = "*"
+pandas = "*"
+
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,3 @@
+[submodule "backend/my_cop_kmeans_py"]
+	path = backend/my_cop_kmeans_py
+	url = git@gitlab.com:tomoki0924/my_cop-kmeans_py.git
