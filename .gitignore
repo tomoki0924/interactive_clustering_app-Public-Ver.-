@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+backend/.ipynb_checkpoints/
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vscode/
+
+# public/
+#/public/*.png
+#!/public/favicon.png
+#!/public/umap-explorer-screenshot.png
+frontend/public/*.json
+
+# 大きすぎるデータセット&使わないやつ
+mnist_images/
+kmnist_images/
+kmnist_dataset/
+
+# logファイルを現状管理しないでおく(公開するときはした方がいいかも。管理。)
+#backend/log_storage/
+
+# その他
+ipynbたちのフォルダ/
