@@ -13,7 +13,7 @@ import cv2
 import json
 import os
 import math
-from mnist import MNIST
+# from mnist import MNIST
 import shutil
 
 import umap

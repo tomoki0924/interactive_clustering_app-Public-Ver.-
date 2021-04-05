@@ -3,7 +3,7 @@ kmnistを1枚づつ".png"で出力。(最初に1回だけ実行する。)
 kmnist_datasetの7万字の正解ラベルの".json"を
 '../frontend/public/kmnist_labels.json'に作成します。
 """
-from sklearn.datasets import fetch_mldata
+#from sklearn.datasets import fetch_mldata
 # from mnist import MNIST
 import PIL
 import numpy as np
