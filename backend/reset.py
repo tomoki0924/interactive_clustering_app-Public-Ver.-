@@ -65,8 +65,13 @@ else:
 
 """
 
-shutil.rmtree('./log_storage/clust_nums/')
-os.mkdir('./log_storage/clust_nums/')
+if not os.path.exists('./log_storage'):
+    os.mkdir('./log_storage')
+
+if os.path.exists('./log_storage/clust_nums/'):
+    shutil.rmtree('./log_storage/clust_nums/')
+
+os.makedirs('./log_storage/clust_nums/')
 
 
 # 分析用データの作成
