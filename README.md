@@ -1,9 +1,14 @@
 # interactive_clustering_app-Public-Ver.-
 卒論のアプリ公開用
 
+- I made an web app. tool for interactive constrained clustering.
+- This app. applied  [COP-Kmeans](https://www.cs.cmu.edu/~./dgovinda/pdf/icml-2001.pdf) (Semi-supervised clustering). 
+- Learning is performed so that the two images chosen by the user are assigned the same cluster.
 
+
+![demo](https://github.com/tomoki0924/interactive_clustering_app-Public-Ver.-/blob/master/icapps_1080p.gif)
 星野が卒業研究で作成したアプリです。
-滅茶苦茶な状態ですが，誰かが興味を持ってくれることを期待し，公開しておきます。
+ ~~滅茶苦茶な状態ですが，~~ 誰かが興味を持ってくれることを期待し，公開しておきます。
 
 # 動作環境
 
